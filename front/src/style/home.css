@@ -1,0 +1,9 @@
+.carousel-image {
+    transform-style: preserve-3d;
+    perspective: 1000px;
+    transition: transform 0.5s;
+}
+
+.carousel-image:hover {
+    transform: rotateY(45deg);
+}

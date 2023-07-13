@@ -1,0 +1,47 @@
+.resumen-compra {
+    border: 1px solid #ccc;
+    padding: 20px;
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.producto {
+    margin-bottom: 10px;
+}
+
+.nombre {
+    font-weight: bold;
+}
+
+.precio {
+    color: #666;
+}
+
+.card:hover {
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    cursor: pointer;
+}
+
+.card-img-top {
+    height: 200px;
+    object-fit: cover;
+}
+
+.total {
+    margin-top: 20px;
+    font-size: 18px;
+}
+
+.total-label {
+    font-weight: bold;
+}
+
+.total-amount {
+    color: #ff0000;
+    /* Color rojo */
+    font-size: 24px;
+    margin-left: 10px;
+}

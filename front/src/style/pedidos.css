@@ -1,0 +1,13 @@
+.entregado {
+    background-color: green;
+}
+
+.proceso {
+    background-color: rgb(207, 25, 195);
+}
+
+tbody tr:hover{
+    background-color: white;
+    transform: scale(1.01);
+    box-shadow: 0 0 5px 5px rgba(0, 0, 0, 0.7);
+}

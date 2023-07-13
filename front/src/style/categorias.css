@@ -1,0 +1,29 @@
+.table-container {
+    position: relative;
+    overflow: hidden;
+}
+
+.table-scroll-cat {
+    max-height: 400px;
+    overflow-y: auto;
+}
+
+.table-container table {
+    width: 100%;
+}
+
+.table-container thead {
+    position: sticky;
+    top: 0;
+    background-color: #ffffff;
+    z-index: 1;
+}
+
+.activo {
+    background-color: green;
+}
+
+.inactivo {
+    background-color: red;
+}
+
